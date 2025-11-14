@@ -2,17 +2,17 @@
 
 I created pong using the Python Arcade library. The controls are very simple and listed below:
 
-W -> Move leftside paddle up
-S -> Move leftside paddle down
+* W -> Move leftside paddle up
+* S -> Move leftside paddle down
 
-UP ARROW -> Move rightside paddle up
-DOWN ARROW -> Move rightside paddle down
+* UP ARROW -> Move rightside paddle up
+* DOWN ARROW -> Move rightside paddle down
 
-SPACE -> Begin the game. The ball will pick a random direction and begin moving.
+* SPACE -> Begin the game. The ball will pick a random direction and begin moving.
 
-P -> Pause game
-TAB -> Switch between 1 player and 2 player mode
-ESC -> Quit game
+* P -> Pause game
+* TAB -> Switch between 1 player and 2 player mode
+* ESC -> Quit game
 
 I created this game in order to begin learning how to make games. I used arcade since
 it is a Pythonm library and Python is the language I know the best.
@@ -25,7 +25,9 @@ VSCode
 
 Python
 > Arcade
+
 > OS
+
 > Random
 
 # Useful Websites
