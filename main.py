@@ -66,23 +66,23 @@ class Pong(arcade.Window):
       text="0",
       x=SCREEN_WIDTH / 2 - 15,
       y=SCREEN_HEIGHT - 30,
+      anchor_x="right",
+      anchor_y="top",
       color=arcade.color.WHITE,
       font_size=20,
       # I used a custom font to match the retro style of Pong
-      font_name="Square Sans Serif 7",
-      anchor_x="right",
-      anchor_y="top"
+      font_name="Square Sans Serif 7"
     )
 
     self.player2_score_text = arcade.Text(
       text="0",
       x=SCREEN_WIDTH / 2 + 15,
       y=SCREEN_HEIGHT - 30,
+      anchor_x="left",
+      anchor_y="top",
       color=arcade.color.WHITE,
       font_size=20,
-      font_name="Square Sans Serif 7",
-      anchor_x="left",
-      anchor_y="top"
+      font_name="Square Sans Serif 7"
     )
 
     # Set up text for choosing 1 player or 2 player mode
